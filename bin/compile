@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install sox"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://www.dropbox.com/s/u9tox2he03zvo7l/sox.tar.gz"
+DOWNLOAD_URL="https://github.com/breathein/sox-with-ogg/raw/master/sox.tar.gz"
 
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
